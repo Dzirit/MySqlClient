@@ -6,6 +6,7 @@ namespace MySqlClient
 {
     class Patient
     {
+
         public Guid PublicIdGuid { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
